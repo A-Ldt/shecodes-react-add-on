@@ -1,0 +1,28 @@
+.Meaning {
+  margin-top: 20px;
+}
+
+.Meaning h3 {
+  font-family: 'Aladin', cursive;
+  font-size: 22px;
+  color: #FFC900;
+}
+
+.definition {
+  color: #F5F5F5;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.definition-label {
+  font-family: 'Aladin', cursive;
+  font-weight: bold;
+  margin-right: 5px;
+  color: #FFC900;
+}
+
+.example {
+  font-style: italic;
+  color: #A6A6A6;
+  margin-top: 5px;
+}

@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1 className="main-title">Dictionary</h1>
+        </header>
+        <main>
+          <Dictionary defaultKeyword="dictionary" />
+        </main>
+        <footer className="App-footer">
+          <small>
+            This project was coded by{" "}
+            <a href="https://github.com/A-Ldt" target="_blank" rel="noopener noreferrer">
+              Alina Linscheidt
+            </a>{" "}
+            and is{" "}
+            <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer">
+              open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer">
+              hosted on Render
+            </a>.
+          </small>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
