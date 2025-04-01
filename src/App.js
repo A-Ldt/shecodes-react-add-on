@@ -18,12 +18,12 @@ export default function App() {
               Alina Linscheidt
             </a>{" "}
             and is{" "}
-            <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/A-Ldt/shecodes-react-add-on" target="_blank" rel="noopener noreferrer">
               open-sourced on GitHub
             </a>{" "}
             and{" "}
-            <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer">
-              hosted on Render
+            <a href="https://github.com/A-Ldt" target="_blank" rel="noopener noreferrer">
+              hosted on Netlify
             </a>.
           </small>
         </footer>
